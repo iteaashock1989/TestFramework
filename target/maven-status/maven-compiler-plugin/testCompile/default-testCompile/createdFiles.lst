@@ -1,0 +1,7 @@
+com\tests\Framework_003.class
+com\tests\TC_002.class
+com\appModules\CheckOut_Action.class
+com\appModules\Confirmation_Action.class
+com\pageObjects\Productpage.class
+com\pageObjects\Home_Page.class
+com\tests\TC_001.class

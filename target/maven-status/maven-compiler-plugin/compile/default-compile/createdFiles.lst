@@ -1,0 +1,8 @@
+com\utils\ExcelUtils.class
+com\utils\DataConfigurator.class
+com\utils\AppTestDataConfigJSon.class
+com\utils\AppTestLocatorConfigJSon.class
+com\utils\Utils.class
+com\utils\BaseClass.class
+com\utils\Log.class
+com\utils\Constant.class

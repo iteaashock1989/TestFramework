@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestFramework" verbose="9">
+	<test name="TestSuites" >
+		<parameter name="environment" value="UAT"/>
+		<parameter name="browser" value="Firefox"/>
+			<groups>
+			    <run>
+			      <include name="smokeTest" />
+			    </run>
+			</groups>
+	  	<classes>
+	    	<class name="com.tests.TC_001"/>
+	  	</classes>
+	</test>
+</suite>

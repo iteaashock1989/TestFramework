@@ -1,0 +1,10 @@
+{
+    "__HomePage__": "----------------------This is a HomePage based Locators------------------------",
+    	"Username": "By.xpath('//div[@id='username']')",
+    	"Password": "By.id('password')",
+    	"LoginInButton": "By.name('login')",
+    	"SearchField": "By.xpath('//input[@placeholder='Search for anything']')",
+    	
+	"__MobilePage__": "--------------------This is a MobilePage based Locators----------------------",
+		"MobilePage_1": "By.xpath('//div[@id='username']')"		
+}

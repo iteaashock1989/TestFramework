@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<environment name="UAT">
+		<appURL></appURL>
+		<username></username>
+		<password></password>	
+	</environment>
+	<environment name="QA1">
+		<appURL></appURL>
+		<username></username>
+		<password></password>	
+	</environment>
+	<environment name="QA2">
+		<appURL></appURL>
+		<username></username>
+		<password></password>	
+	</environment>
+	<environment name="DEV">
+		<appURL></appURL>
+		<username></username>
+		<password></password>	
+	</environment>
+</data>
