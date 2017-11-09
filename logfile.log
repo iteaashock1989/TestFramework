@@ -339,3 +339,20 @@ Driver info: driver.version: ChromeDriver
 2017-11-08 19:42:54,883 INFO  [Log] X 
 2017-11-08 19:42:54,883 INFO  [Log] X 
 2017-11-08 19:42:54,883 INFO  [Log] X 
+2017-11-09 20:02:36,570 INFO  [Log] **************************************************************************************** 
+2017-11-09 20:02:36,580 INFO  [Log] **************************************************************************************** 
+2017-11-09 20:02:36,580 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-09 20:02:36,580 INFO  [Log] **************************************************************************************** 
+2017-11-09 20:02:36,580 INFO  [Log] **************************************************************************************** 
+2017-11-09 20:02:36,775 INFO  [Log] Excel sheet opened 
+2017-11-09 20:02:36,775 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-09 20:02:56,752 INFO  [Log] Chrome driver instantiated 
+2017-11-09 20:02:56,776 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-09 20:03:20,531 INFO  [Log] Web application launched successfully 
+2017-11-09 20:03:20,546 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-09 20:03:20,636 ERROR [Log]  
+2017-11-09 20:03:20,783 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-09 20:03:20,783 INFO  [Log] X 
+2017-11-09 20:03:20,783 INFO  [Log] X 
+2017-11-09 20:03:20,783 INFO  [Log] X 
+2017-11-09 20:03:20,783 INFO  [Log] X 

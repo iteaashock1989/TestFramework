@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
 	<environment name="UAT">
-		<appURL></appURL>
+		<appURL>https://www.ebay.com/</appURL>
 		<username></username>
 		<password></password>	
 	</environment>
 	<environment name="QA1">
-		<appURL></appURL>
+		<appURL>https://www.ebay.in/</appURL>
 		<username></username>
 		<password></password>	
 	</environment>

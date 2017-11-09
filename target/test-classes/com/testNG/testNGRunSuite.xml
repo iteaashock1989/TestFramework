@@ -3,7 +3,7 @@
 <suite name="TestFramework" verbose="9">
 	<test name="TestSuites" >
 		<parameter name="environment" value="UAT"/>
-		<parameter name="browser" value="Firefox"/>
+		<parameter name="browser" value="Chrome"/>
 			<groups>
 			    <run>
 			      <include name="smokeTest" />
