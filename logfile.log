@@ -356,3 +356,47 @@ Driver info: driver.version: ChromeDriver
 2017-11-09 20:03:20,783 INFO  [Log] X 
 2017-11-09 20:03:20,783 INFO  [Log] X 
 2017-11-09 20:03:20,783 INFO  [Log] X 
+2017-11-15 18:04:55,345 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:04:55,345 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:04:55,345 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-15 18:04:55,345 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:04:55,345 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:04:55,525 INFO  [Log] Excel sheet opened 
+2017-11-15 18:04:55,525 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-15 18:04:59,421 INFO  [Log] Chrome driver instantiated 
+2017-11-15 18:04:59,430 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-15 18:06:55,884 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:06:55,884 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:06:55,884 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-15 18:06:55,884 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:06:55,884 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:06:56,064 INFO  [Log] Excel sheet opened 
+2017-11-15 18:06:56,064 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-15 18:06:59,036 INFO  [Log] Chrome driver instantiated 
+2017-11-15 18:06:59,043 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-15 18:07:07,051 INFO  [Log] Web application launched successfully 
+2017-11-15 18:07:27,119 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-15 18:07:27,159 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id='username'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-15 18:07:27,169 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-15 18:07:27,169 INFO  [Log] X 
+2017-11-15 18:07:27,169 INFO  [Log] X 
+2017-11-15 18:07:27,169 INFO  [Log] X 
+2017-11-15 18:07:27,169 INFO  [Log] X 
+2017-11-15 18:09:19,908 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:09:19,908 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:09:19,908 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-15 18:09:19,908 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:09:19,908 INFO  [Log] **************************************************************************************** 
+2017-11-15 18:09:20,098 INFO  [Log] Excel sheet opened 
+2017-11-15 18:09:20,098 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-15 18:09:22,341 INFO  [Log] Chrome driver instantiated 
+2017-11-15 18:09:22,348 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-15 18:09:25,575 INFO  [Log] Web application launched successfully 
+2017-11-15 18:09:25,760 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-15 18:09:25,866 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-15 18:09:32,779 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-15 18:09:32,784 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-15 18:09:32,784 INFO  [Log] X 
+2017-11-15 18:09:32,784 INFO  [Log] X 
+2017-11-15 18:09:32,785 INFO  [Log] X 
+2017-11-15 18:09:32,785 INFO  [Log] X 

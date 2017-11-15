@@ -17,6 +17,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Utils {
 		
 	public WebDriver getDriver;
+	public String username;
+	public String password;
 	
 	EnvVariablesConfigurator envVarConfig = new EnvVariablesConfigurator();
 	
@@ -40,7 +42,9 @@ public class Utils {
 			    getDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			    Log.info("Implicit wait applied on the driver for 20 seconds");				    
 		    }
-			getDriver.manage().window().maximize();
+			getDriver.manage().window().maximize();			
+			username = envVarConfig.readUsername(env);
+			password = envVarConfig.readPassword(env);			
 			getDriver.get(envVarConfig.readAppUrl(env));
 			Log.info("Web application launched successfully");			
 			

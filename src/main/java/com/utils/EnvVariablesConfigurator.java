@@ -43,25 +43,15 @@ public class EnvVariablesConfigurator {
 			Document doc = dBuilder.parse(fXmlFile);
 
 			doc.getDocumentElement().normalize();
-
-			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-
+			//System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 			NodeList nList = doc.getElementsByTagName("environment");
-
-			System.out.println("----------------------------");
-
+			//System.out.println("----------------------------");
 			for (int temp = 0; temp < nList.getLength(); temp++) {
-
 				Node nNode = nList.item(temp);
-
-				System.out.println("\nCurrent Element :" + nNode.getNodeName());
-
+				//System.out.println("\nCurrent Element :" + nNode.getNodeName());
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-
 					Element eElement = (Element) nNode;
-
-					System.out.println("Staff id : " + eElement.getAttribute("name"));
-					
+					//System.out.println("Staff id : " + eElement.getAttribute("name"));					
 					if(env.equalsIgnoreCase(eElement.getAttribute("name")))
 					{
 						data = eElement.getElementsByTagName(envVarData).item(0).getTextContent();

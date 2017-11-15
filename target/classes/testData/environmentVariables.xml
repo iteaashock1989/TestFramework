@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
 	<environment name="UAT">
-		<appURL>https://www.ebay.com/</appURL>
-		<username></username>
-		<password></password>	
+		<appURL>https://www.ultimatix.net</appURL>
+		<username>ashok_kumarv</username>
+		<password>uLTIMA@1</password>	
 	</environment>
 	<environment name="QA1">
 		<appURL>https://www.ebay.in/</appURL>

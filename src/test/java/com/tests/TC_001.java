@@ -36,7 +36,7 @@ public class TC_001 extends Utils{
 	  try{
 		  
 		Home_Page homepage = new Home_Page(getDriver);
-		homepage.searchItem("ProductName","SearchField");
+		homepage.loginApp(username, password);
 		  
 		/*if(BaseClass.bResult==true){
 			ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
