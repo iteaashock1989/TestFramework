@@ -1,15 +1,15 @@
 package com.appModules;
 
-import org.testng.Reporter;
+/*import org.testng.Reporter;
 
-import com.utils.BaseClass;
+
 
 // This is called Modularization, when we club series of actions in to one Module
 // For Modular Driven Framework, please see http://www.toolsqa.com/modular-driven/ 
 public class CheckOut_Action {
 	 // I could have created a Function for it but I keep calculations in Functions and test steps in Module Actions
 	 // It could have been avoided and simply put these steps in Test Case, it depends totally on you, everybody has their own choice
-	 /*public static void Execute() throws Exception{
+	 public static void Execute() throws Exception{
 		 
 		// This is to get the Product name on the Check Out page with using getText() method 
 		// CheckOut_Page.sProductName is a static variable and can be used anywhere with its class name
@@ -41,6 +41,6 @@ public class CheckOut_Action {
      	
      	// Clicking on the Continue button on the Check Out page
      	CheckOut_Page.btn_Continue().click();
-	 }*/
+	 }
 
-}
+}*/
