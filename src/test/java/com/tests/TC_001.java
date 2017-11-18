@@ -38,11 +38,7 @@ public class TC_001 extends Utils{
 		Home_Page homepage = new Home_Page(getDriver);
 		homepage.loginApp(username, password);
 		  
-		/*if(BaseClass.bResult==true){
-			ExcelUtils.setCellData("Pass", iTestCaseRow, Constant.Col_Result);
-		}else{
-			throw new Exception("Test Case Failed because of Verification");
-		}*/		
+	
 	  }catch (Exception e){
 		  ExcelUtils.setCellData("Fail", iTestCaseRow, Const.Col_Result);
 		  Log.error(e.getMessage());

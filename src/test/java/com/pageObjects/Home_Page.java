@@ -39,9 +39,12 @@ import com.utils.Utils;
             	getDriver.findElement(passwordLoc).sendKeys(password);
 	            Log.info("Log Out link is found on the Home Page");
 	            
-	            waitForElementToBePresent("Username");
+	            waitForElementToBePresent("LoginInButton");
             	clickElement("LoginInButton");
 	            Log.info("Log Out link is found on the Home Page");
+	            
+	            waitForElementToBePresent("ErrorMessage");
+	            Log.info("Error Message is displayed.");
 	            
             }catch (Exception e){
             	Log.error("Log Out link is not found on the Home Page");

@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class Utils {
 		
@@ -21,6 +22,7 @@ public class Utils {
 	public String password;
 	
 	EnvVariablesConfigurator envVarConfig = new EnvVariablesConfigurator();
+	private String filename;
 	
 	public WebDriver launchApp(String env, String browser) throws Exception{
 		
@@ -142,11 +144,25 @@ public class Utils {
         	 throw e;
          }    
 	 }
+	 
+	 public void verifyElementText(String element) throws Exception{
+	     
+         try
+         {
+    		 WebDriverWait wait = new WebDriverWait(getDriver, 10);    	     
+    	     wait.until(ExpectedConditions.textToBePresentInElementValue(AppTestLocatorConfigJSon.readLoc(element), "Element is present"));
+    		 
+         }catch (Exception e) {
+        	 throw e;
+         }    
+	 }
 		
-	 public void takeScreenshot(String sTestCaseId) throws Exception{
-			try{
+	 public void takeScreenshot() throws Exception{
+		 
+		 try{
+				filename = Thread.currentThread().getStackTrace()[1].toString();
 				File scrFile = ((TakesScreenshot)getDriver).getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(scrFile, new File(Const.Path_ScreenShot + sTestCaseId +".jpg"));	
+				FileUtils.copyFile(scrFile, new File(Const.Path_ScreenShot + filename +".jpg"));	
 			} catch (Exception e){
 				Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "+e.getMessage());
 				throw (e);
