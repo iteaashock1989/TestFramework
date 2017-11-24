@@ -2,8 +2,8 @@
     "__HomePage__": "----------------------This is a HomePage based Locators------------------------",
     	"Username": "By.id('USER')",
     	"Password": "By.id('PASSWORD')",
-    	"LoginInButton": "By.id('login_button')",
-    	"SearchField": "By.xpath('//input[@placeholder='Search for anything']')",
+    	"LoginInButton": "By.id('login')",
+    	"ErrorMessage": "By.xpath('//label[@id='errorLabel']')",
     	
 	"__MobilePage__": "--------------------This is a MobilePage based Locators----------------------",
 		"MobilePage_1": "By.xpath('//div[@id='username']')"		

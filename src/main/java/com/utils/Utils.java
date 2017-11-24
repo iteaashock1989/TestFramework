@@ -1,11 +1,7 @@
 package com.utils;
 
-import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,22 +9,22 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+import org.testng.ITestResult;
 
 public class Utils {
 		
 	public WebDriver getDriver;
 	public String username;
 	public String password;
+	public String browserName;
 	
 	EnvVariablesConfigurator envVarConfig = new EnvVariablesConfigurator();
-	private String filename;
 	
-	public WebDriver launchApp(String env, String browser) throws Exception{
+	public WebDriver initiateWebDriver() throws Exception{
 		
 		try{
 			
-			if(browser.equals("Firefox")){
+			if(browserName.equals("Firefox")){
 				
 				System.setProperty("webdriver.gecko.driver", Const.Path_Drivers + Const.Gecko_Driver);
 				getDriver = new FirefoxDriver();
@@ -36,7 +32,7 @@ public class Utils {
 			    getDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			    Log.info("Implicit wait applied on the driver for 20 seconds");	
 			    
-		    } else if(browser.equals("Chrome")){	
+		    } else if(browserName.equals("Chrome")){	
 		    	
 		    	System.setProperty("webdriver.chrome.driver", Const.Path_Drivers + Const.Chrome_Driver);
 				getDriver = new ChromeDriver();
@@ -44,6 +40,19 @@ public class Utils {
 			    getDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			    Log.info("Implicit wait applied on the driver for 20 seconds");				    
 		    }
+			Log.info("WebDriver Inititated successfully");			
+			
+		}catch (Exception e){
+			Log.error("Class Utils | Method OpenBrowser | Exception desc : "+e.getMessage());
+		}
+		return getDriver;
+	}
+	
+	public WebDriver launchApp(String env, String browser) throws Exception{
+		
+		try{			
+			browserName = browser;
+			initiateWebDriver();
 			getDriver.manage().window().maximize();			
 			username = envVarConfig.readUsername(env);
 			password = envVarConfig.readPassword(env);			
@@ -54,10 +63,10 @@ public class Utils {
 			Log.error("Class Utils | Method OpenBrowser | Exception desc : "+e.getMessage());
 		}
 		return getDriver;
-	}
+	} 
 	
 	public WebDriver quitDriver() throws Exception {
-		try {
+		try {					
 			getDriver.quit();
 		}
 		catch (Exception e)
@@ -157,7 +166,7 @@ public class Utils {
          }    
 	 }
 		
-	 public void takeScreenshot() throws Exception{
+/*	 public void takeScreenshot() throws Exception{
 		 
 		 try{
 				filename = Thread.currentThread().getStackTrace()[1].toString();
@@ -167,7 +176,7 @@ public class Utils {
 				Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "+e.getMessage());
 				throw (e);
 			}
-	}
+	}*/
 	 
 	 public static String getTestCaseId(String sTestCaseId)throws Exception{
 		String value = sTestCaseId;
@@ -181,6 +190,11 @@ public class Utils {
 		Log.error("Class Utils | Method getTestCaseName | Exception desc : "+e.getMessage());
 		throw (e);
 		}
+	}
+
+	public void onFailureTCImg(WebDriver driver, ITestResult getResult) {
+		// TODO Auto-generated method stub
+		
 	}
 	 
 }

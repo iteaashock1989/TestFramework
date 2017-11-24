@@ -2,6 +2,7 @@ package com.tests;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -13,7 +14,7 @@ import com.utils.ExcelUtils;
 import com.utils.Log;
 import com.utils.Utils;
 
-public class TC_001 extends Utils{
+public class TC_001 extends Utils{	    
 
 	private String sTestCaseId;
 	private int iTestCaseRow;
@@ -47,8 +48,9 @@ public class TC_001 extends Utils{
   }
 			
 	@AfterMethod(alwaysRun = true)
-  	public void afterMethod() throws Exception {
+  	public void afterMethod(ITestResult result) throws Exception {
 	    Log.endTestCase(sTestCaseId);
+	    onFailureTCImg(getDriver, result);
 	    quitDriver();
   }
 }
