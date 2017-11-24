@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="TestFramework" verbose="9">
-	<listeners>
+<!-- 	<listeners>
        <listener class-name="com.utils.TestListeners"/>
-	</listeners>
+	</listeners> -->
 	<test name="TestSuites" >
 		<parameter name="environment" value="UAT"/>
 		<parameter name="browser" value="Chrome"/>

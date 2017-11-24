@@ -627,3 +627,224 @@ Driver info: driver.version: ChromeDriver
 2017-11-24 17:23:58,608 INFO  [Log] X 
 2017-11-24 17:23:58,608 INFO  [Log] X 
 2017-11-24 17:23:58,608 INFO  [Log] X 
+2017-11-24 17:27:48,381 INFO  [Log] **************************************************************************************** 
+2017-11-24 17:27:48,381 INFO  [Log] **************************************************************************************** 
+2017-11-24 17:27:48,381 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 17:27:48,381 INFO  [Log] **************************************************************************************** 
+2017-11-24 17:27:48,381 INFO  [Log] **************************************************************************************** 
+2017-11-24 17:27:48,579 INFO  [Log] Excel sheet opened 
+2017-11-24 17:27:48,579 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 17:27:50,669 INFO  [Log] Chrome driver instantiated 
+2017-11-24 17:27:50,677 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 17:27:50,677 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 17:27:53,089 INFO  [Log] Web application launched successfully 
+2017-11-24 17:27:53,257 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 17:27:53,367 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 17:28:13,412 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 17:28:13,502 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 17:28:13,502 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 17:28:13,502 INFO  [Log] X 
+2017-11-24 17:28:13,502 INFO  [Log] X 
+2017-11-24 17:28:13,502 INFO  [Log] X 
+2017-11-24 17:28:13,502 INFO  [Log] X 
+2017-11-24 18:18:56,349 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:18:56,349 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:18:56,349 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:18:56,349 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:18:56,349 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:18:56,540 INFO  [Log] Excel sheet opened 
+2017-11-24 18:18:56,540 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:18:59,718 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:18:59,727 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:18:59,727 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:19:03,378 INFO  [Log] Web application launched successfully 
+2017-11-24 18:19:03,543 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:19:03,639 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:19:23,674 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:19:23,769 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:19:23,769 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 18:19:23,769 INFO  [Log] X 
+2017-11-24 18:19:23,769 INFO  [Log] X 
+2017-11-24 18:19:23,769 INFO  [Log] X 
+2017-11-24 18:19:23,769 INFO  [Log] X 
+2017-11-24 18:23:23,757 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:23:23,757 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:23:23,757 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:23:23,757 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:23:23,757 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:23:23,947 INFO  [Log] Excel sheet opened 
+2017-11-24 18:23:23,947 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:23:26,048 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:23:26,058 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:23:26,058 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:23:30,047 INFO  [Log] Web application launched successfully 
+2017-11-24 18:23:30,183 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:23:30,254 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:23:50,302 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:23:50,382 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:23:50,392 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 18:23:50,392 INFO  [Log] X 
+2017-11-24 18:23:50,392 INFO  [Log] X 
+2017-11-24 18:23:50,392 INFO  [Log] X 
+2017-11-24 18:23:50,392 INFO  [Log] X 
+2017-11-24 18:32:44,598 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:32:44,598 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:32:44,598 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:32:44,598 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:32:44,598 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:32:44,779 INFO  [Log] Excel sheet opened 
+2017-11-24 18:32:44,779 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:32:46,611 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:32:46,620 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:32:46,620 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:32:50,742 INFO  [Log] Web application launched successfully 
+2017-11-24 18:32:50,890 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:32:50,967 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:33:10,983 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:33:11,074 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:34:09,019 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:34:09,019 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:34:09,019 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:34:09,019 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:34:09,019 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:34:09,229 INFO  [Log] Excel sheet opened 
+2017-11-24 18:34:09,229 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:34:10,980 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:34:10,988 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:34:10,988 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:34:14,808 INFO  [Log] Web application launched successfully 
+2017-11-24 18:34:14,962 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:34:15,065 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:34:35,089 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:34:35,189 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:34:35,189 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 18:34:35,189 INFO  [Log] X 
+2017-11-24 18:34:35,189 INFO  [Log] X 
+2017-11-24 18:34:35,189 INFO  [Log] X 
+2017-11-24 18:34:35,189 INFO  [Log] X 
+2017-11-24 18:36:41,882 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:36:41,883 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:36:41,883 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:36:41,883 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:36:41,883 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:36:42,077 INFO  [Log] Excel sheet opened 
+2017-11-24 18:36:42,077 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:36:44,428 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:36:44,436 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:36:44,436 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:36:47,197 INFO  [Log] Web application launched successfully 
+2017-11-24 18:36:47,349 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:36:47,430 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:37:07,512 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:37:07,602 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:40:38,785 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:40:38,785 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:40:38,785 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:40:38,785 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:40:38,785 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:40:38,977 INFO  [Log] Excel sheet opened 
+2017-11-24 18:40:38,977 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:40:43,125 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:40:43,133 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:40:43,133 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:40:47,290 INFO  [Log] Web application launched successfully 
+2017-11-24 18:40:47,445 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:40:47,536 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:41:07,565 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:41:07,646 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:41:07,653 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 18:41:07,653 INFO  [Log] X 
+2017-11-24 18:41:07,653 INFO  [Log] X 
+2017-11-24 18:41:07,653 INFO  [Log] X 
+2017-11-24 18:41:07,653 INFO  [Log] X 
+2017-11-24 18:47:25,427 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:25,427 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:25,427 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:47:25,427 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:25,427 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:25,619 INFO  [Log] Excel sheet opened 
+2017-11-24 18:47:25,619 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:47:28,854 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:47:28,863 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:47:28,863 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:47:30,992 INFO  [Log] Web application launched successfully 
+2017-11-24 18:47:39,153 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:39,153 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:39,153 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 18:47:39,153 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:39,153 INFO  [Log] **************************************************************************************** 
+2017-11-24 18:47:39,375 INFO  [Log] Excel sheet opened 
+2017-11-24 18:47:39,375 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 18:47:41,180 INFO  [Log] Chrome driver instantiated 
+2017-11-24 18:47:41,188 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 18:47:41,188 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 18:47:44,312 INFO  [Log] Web application launched successfully 
+2017-11-24 18:47:44,486 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:47:44,601 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 18:48:04,637 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 18:48:04,727 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 18:48:04,727 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 18:48:04,727 INFO  [Log] X 
+2017-11-24 18:48:04,727 INFO  [Log] X 
+2017-11-24 18:48:04,737 INFO  [Log] X 
+2017-11-24 18:48:04,737 INFO  [Log] X 
+2017-11-24 19:00:09,753 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:00:09,753 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:00:09,753 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:00:09,753 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:00:09,753 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:00:09,945 INFO  [Log] Excel sheet opened 
+2017-11-24 19:00:09,945 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 19:00:12,736 INFO  [Log] Chrome driver instantiated 
+2017-11-24 19:00:12,745 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 19:00:12,745 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 19:00:16,381 INFO  [Log] Web application launched successfully 
+2017-11-24 19:00:16,575 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:00:16,660 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:00:36,706 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 19:00:36,796 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 19:00:36,806 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:00:36,806 INFO  [Log] X 
+2017-11-24 19:00:36,806 INFO  [Log] X 
+2017-11-24 19:00:36,806 INFO  [Log] X 
+2017-11-24 19:00:36,806 INFO  [Log] X 
+2017-11-24 19:05:12,982 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:05:12,982 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:05:12,982 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:05:12,982 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:05:12,982 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:05:13,201 INFO  [Log] Excel sheet opened 
+2017-11-24 19:05:13,201 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 19:05:17,441 INFO  [Log] Chrome driver instantiated 
+2017-11-24 19:05:17,450 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 19:05:17,450 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 19:05:22,645 INFO  [Log] Web application launched successfully 
+2017-11-24 19:05:22,797 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:05:22,883 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:05:42,934 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 19:05:43,045 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 19:05:43,059 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:05:43,059 INFO  [Log] X 
+2017-11-24 19:05:43,059 INFO  [Log] X 
+2017-11-24 19:05:43,060 INFO  [Log] X 
+2017-11-24 19:05:43,060 INFO  [Log] X 
+2017-11-24 19:07:29,273 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:07:29,273 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:07:29,273 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:07:29,273 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:07:29,273 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:07:29,498 INFO  [Log] Excel sheet opened 
+2017-11-24 19:07:29,499 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 19:07:32,873 INFO  [Log] Chrome driver instantiated 
+2017-11-24 19:07:32,885 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 19:07:32,885 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 19:07:36,349 INFO  [Log] Web application launched successfully 
+2017-11-24 19:07:36,516 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:07:36,587 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:07:56,662 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 19:07:56,762 ERROR [Log] Expected condition failed: waiting for presence of element located by: By.id: login (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-11-24 19:07:56,762 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:07:56,762 INFO  [Log] X 
+2017-11-24 19:07:56,762 INFO  [Log] X 
+2017-11-24 19:07:56,762 INFO  [Log] X 
+2017-11-24 19:07:56,762 INFO  [Log] X 

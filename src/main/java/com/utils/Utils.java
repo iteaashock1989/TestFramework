@@ -1,7 +1,11 @@
 package com.utils;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +21,8 @@ public class Utils {
 	public String username;
 	public String password;
 	public String browserName;
+	
+	public static String fileSeperator = System.getProperty("file.separator");
 	
 	EnvVariablesConfigurator envVarConfig = new EnvVariablesConfigurator();
 	
@@ -165,18 +171,6 @@ public class Utils {
         	 throw e;
          }    
 	 }
-		
-/*	 public void takeScreenshot() throws Exception{
-		 
-		 try{
-				filename = Thread.currentThread().getStackTrace()[1].toString();
-				File scrFile = ((TakesScreenshot)getDriver).getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(scrFile, new File(Const.Path_ScreenShot + filename +".jpg"));	
-			} catch (Exception e){
-				Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "+e.getMessage());
-				throw (e);
-			}
-	}*/
 	 
 	 public static String getTestCaseId(String sTestCaseId)throws Exception{
 		String value = sTestCaseId;
@@ -192,9 +186,64 @@ public class Utils {
 		}
 	}
 
-	public void onFailureTCImg(WebDriver driver, ITestResult getResult) {
-		// TODO Auto-generated method stub
+	 public void takeScreenshotForTestCase(String testClassName, String screenShotName) throws Exception{
+	 
+		 try {
+
+				if (getDriver != null) {
+					String imagePath = ".." + fileSeperator + "Screenshots"
+							+ fileSeperator + "Results" + fileSeperator + testClassName
+							+ fileSeperator
+							+ takeScreenShot(getDriver, testClassName, screenShotName);
+					System.out.println("Screenshot can be found : " + imagePath);
+				}
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	 }
+	 
+	 public String takeScreenShot(WebDriver driver,
+				String screenShotName, String testName) throws Exception {
+			try {
+				File file = new File("Screenshots" + fileSeperator + "Results");
+				if (!file.exists()) {
+					System.out.println("File created " + file);
+					file.mkdir();
+				}
+				File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+				File targetFile = new File("Screenshots" + fileSeperator + "Results" + fileSeperator + testName, screenShotName);
+				FileUtils.copyFile(screenshotFile, targetFile);
+				return screenShotName;
+			} catch (Exception e) {
+				Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "+e.getMessage());
+				throw (e);
+			}
+		}
+
+		public String getTestClassName(String testName) {
+			String[] reqTestClassname = testName.split("\\.");
+			int i = reqTestClassname.length - 1;
+			System.out.println("Required Test Name : " + reqTestClassname[i]);
+			return reqTestClassname[i];
+		}
 		
-	}
+		public void onTestFailure(ITestResult result) {
+			
+			if(ITestResult.FAILURE == result.getStatus()){
+				
+				try {
+					String testClassName = getTestClassName(result.getInstanceName()).trim();
+					String testMethodName = result.getName().toString().trim();
+					String screenShotName = testMethodName + ".png";
+					
+					System.out.println("Screenshot path is  : " + screenShotName);
+					takeScreenshotForTestCase(testClassName, screenShotName);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}		
+			}		
+		}
 	 
 }

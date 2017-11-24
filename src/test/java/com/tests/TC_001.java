@@ -50,7 +50,7 @@ public class TC_001 extends Utils{
 	@AfterMethod(alwaysRun = true)
   	public void afterMethod(ITestResult result) throws Exception {
 	    Log.endTestCase(sTestCaseId);
-	    onFailureTCImg(getDriver, result);
+	    onTestFailure(result);	    
 	    quitDriver();
   }
 }
