@@ -204,7 +204,7 @@ public class Utils {
 	 }
 	 
 	 public String takeScreenShot(WebDriver driver,
-				String screenShotName, String testName) throws Exception {
+				String screenShotName, String testClassName) throws Exception {
 			try {
 				File file = new File("Screenshots" + fileSeperator + "Results");
 				if (!file.exists()) {
@@ -212,7 +212,8 @@ public class Utils {
 					file.mkdir();
 				}
 				File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-				File targetFile = new File("Screenshots" + fileSeperator + "Results" + fileSeperator + testName, screenShotName);
+				File targetFile = new File("Screenshots" + fileSeperator + "Results" + fileSeperator + testClassName
+						+ fileSeperator, screenShotName);
 				FileUtils.copyFile(screenshotFile, targetFile);
 				return screenShotName;
 			} catch (Exception e) {
