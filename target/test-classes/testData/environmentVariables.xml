@@ -2,8 +2,8 @@
 <data>
 	<environment name="UAT">
 		<appURL>https://www.ultimatix.net</appURL>
-		<username></username>
-		<password></password>	
+		<username>ashok_kumarv</username>
+		<password>asdasd</password>	
 	</environment>
 	<environment name="QA1">
 		<appURL>https://www.ebay.in/</appURL>

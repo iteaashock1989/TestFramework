@@ -848,3 +848,73 @@ Driver info: driver.version: ChromeDriver
 2017-11-24 19:07:56,762 INFO  [Log] X 
 2017-11-24 19:07:56,762 INFO  [Log] X 
 2017-11-24 19:07:56,762 INFO  [Log] X 
+2017-11-24 19:14:38,700 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:14:38,700 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:14:38,700 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:14:38,700 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:14:38,700 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:14:38,720 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:14:38,720 INFO  [Log] X 
+2017-11-24 19:14:38,720 INFO  [Log] X 
+2017-11-24 19:14:38,720 INFO  [Log] X 
+2017-11-24 19:14:38,720 INFO  [Log] X 
+2017-11-24 19:14:38,720 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : null 
+2017-11-24 19:15:05,620 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:05,630 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:05,630 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:15:05,630 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:05,630 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:05,820 INFO  [Log] Excel sheet opened 
+2017-11-24 19:15:05,820 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 19:15:09,573 INFO  [Log] Chrome driver instantiated 
+2017-11-24 19:15:09,582 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 19:15:09,582 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 19:15:13,143 INFO  [Log] Web application launched successfully 
+2017-11-24 19:15:13,295 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:13,385 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:13,568 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:13,628 ERROR [Log] Log Out link is not found on the Home Page 
+2017-11-24 19:15:13,727 ERROR [Log] unexpected alert open: {Alert text : Username is mandatory.}
+  (Session info: chrome=59.0.3071.109)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds: null
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '01HW607496', ip: '10.239.98.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\1098413\AppData\Local\Temp\scoped_dir8852_19446}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.109, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4327d1d380c4d07429cb949f7feed3af
+*** Element info: {Using=xpath, value=//label[@id='errorLabel']} 
+2017-11-24 19:15:13,732 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:15:13,732 INFO  [Log] X 
+2017-11-24 19:15:13,732 INFO  [Log] X 
+2017-11-24 19:15:13,732 INFO  [Log] X 
+2017-11-24 19:15:13,732 INFO  [Log] X 
+2017-11-24 19:15:13,740 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : unexpected alert open: {Alert text : Username is mandatory.}
+  (Session info: chrome=59.0.3071.109)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds: null
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: '01HW607496', ip: '10.239.98.156', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\1098413\AppData\Local\Temp\scoped_dir8852_19446}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.109, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4327d1d380c4d07429cb949f7feed3af 
+2017-11-24 19:15:38,477 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:38,477 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:38,477 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TC_001       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-11-24 19:15:38,477 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:38,477 INFO  [Log] **************************************************************************************** 
+2017-11-24 19:15:38,657 INFO  [Log] Excel sheet opened 
+2017-11-24 19:15:38,657 INFO  [Log] Total number of Row used return as < 3 >. 
+2017-11-24 19:15:41,697 INFO  [Log] Chrome driver instantiated 
+2017-11-24 19:15:41,707 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2017-11-24 19:15:41,707 INFO  [Log] WebDriver Inititated successfully 
+2017-11-24 19:15:45,052 INFO  [Log] Web application launched successfully 
+2017-11-24 19:15:45,343 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:45,446 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:46,550 INFO  [Log] Log Out link is found on the Home Page 
+2017-11-24 19:15:46,625 INFO  [Log] Error Message is displayed. 
+2017-11-24 19:15:46,625 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-11-24 19:15:46,625 INFO  [Log] X 
+2017-11-24 19:15:46,625 INFO  [Log] X 
+2017-11-24 19:15:46,625 INFO  [Log] X 
+2017-11-24 19:15:46,625 INFO  [Log] X 
