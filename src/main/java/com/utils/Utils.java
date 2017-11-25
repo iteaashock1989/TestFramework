@@ -20,17 +20,16 @@ public class Utils {
 	public WebDriver getDriver;
 	public String username;
 	public String password;
-	public String browserName;
 	
 	public static String fileSeperator = System.getProperty("file.separator");
 	
 	EnvVariablesConfigurator envVarConfig = new EnvVariablesConfigurator();
 	
-	public WebDriver initiateWebDriver() throws Exception{
+	public WebDriver initiateWebDriver(String browser) throws Exception{
 		
 		try{
 			
-			if(browserName.equals("Firefox")){
+			if(browser.equals("Firefox")){
 				
 				System.setProperty("webdriver.gecko.driver", Const.Path_Drivers + Const.Gecko_Driver);
 				getDriver = new FirefoxDriver();
@@ -38,7 +37,7 @@ public class Utils {
 			    getDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			    Log.info("Implicit wait applied on the driver for 20 seconds");	
 			    
-		    } else if(browserName.equals("Chrome")){	
+		    } else if(browser.equals("Chrome")){	
 		    	
 		    	System.setProperty("webdriver.chrome.driver", Const.Path_Drivers + Const.Chrome_Driver);
 				getDriver = new ChromeDriver();
@@ -57,8 +56,7 @@ public class Utils {
 	public WebDriver launchApp(String env, String browser) throws Exception{
 		
 		try{			
-			browserName = browser;
-			initiateWebDriver();
+			initiateWebDriver(browser);
 			getDriver.manage().window().maximize();			
 			username = envVarConfig.readUsername(env);
 			password = envVarConfig.readPassword(env);			
@@ -66,7 +64,7 @@ public class Utils {
 			Log.info("Web application launched successfully");			
 			
 		}catch (Exception e){
-			Log.error("Class Utils | Method OpenBrowser | Exception desc : "+e.getMessage());
+			Log.error("Class Utils | Method OpenApp | Exception desc : "+e.getMessage());
 		}
 		return getDriver;
 	} 
@@ -186,7 +184,7 @@ public class Utils {
 		}
 	}
 
-	 public void takeScreenshotForTestCase(String testClassName, String screenShotName) throws Exception{
+	 public void takeScreenshotForTestCase(WebDriver getDriver, String testClassName, String screenShotName) throws Exception{
 	 
 		 try {
 
@@ -204,7 +202,7 @@ public class Utils {
 	 }
 	 
 	 public String takeScreenShot(WebDriver driver,
-				String screenShotName, String testClassName) throws Exception {
+				String testClassName, String screenShotName) throws Exception {
 			try {
 				File file = new File("Screenshots" + fileSeperator + "Results");
 				if (!file.exists()) {
@@ -225,11 +223,11 @@ public class Utils {
 		public String getTestClassName(String testName) {
 			String[] reqTestClassname = testName.split("\\.");
 			int i = reqTestClassname.length - 1;
-			System.out.println("Required Test Name : " + reqTestClassname[i]);
+			System.out.println("Required Test Class Name : " + reqTestClassname[i]);
 			return reqTestClassname[i];
 		}
 		
-		public void onTestFailure(ITestResult result) {
+		public void onTestFailure(WebDriver getDriver, ITestResult result) {
 			
 			if(ITestResult.FAILURE == result.getStatus()){
 				
@@ -239,7 +237,7 @@ public class Utils {
 					String screenShotName = testMethodName + ".png";
 					
 					System.out.println("Screenshot path is  : " + screenShotName);
-					takeScreenshotForTestCase(testClassName, screenShotName);
+					takeScreenshotForTestCase(getDriver, testClassName, screenShotName);
 					} catch (Exception e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
